@@ -127,7 +127,7 @@ void animationLoading() {
     for (int i = 1; i < 13; i++)
     {
       light_led(i);
-      delay(50);
+      delay(35);
     }
 
     buttonState1 = digitalRead(button1Pin);
