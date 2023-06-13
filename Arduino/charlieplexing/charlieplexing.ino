@@ -1,22 +1,150 @@
+int LED_A = 13;
+int LED_B = 12;
+int LED_C = 11;
+int LED_D = 10;
 
-int LED_A = 12;
-int LED_B = 10;
-int LED_C = 8;
-int LED_D = 6;
-int switch1 = 13;
+// Pins connected to the buttons
+int button1Pin = 2;
+int button2Pin = 3;
+int button3Pin = 4;
+int button4Pin = 5;
 
-void setup()
-{
-  reset_pins();
-  pinMode(switch1, INPUT);
+// Variables to store the button states
+int buttonState1 = 0;
+int buttonState2 = 0;
+int buttonState3 = 0;
+int buttonState4 = 0;
+
+// Flags to control the functions
+bool function1Running = false;
+bool function2Running = false;
+bool function3Running = false;
+bool function4Running = false;
+
+void setup() {
+  pinMode(button1Pin, INPUT_PULLUP);
+  pinMode(button2Pin, INPUT_PULLUP);
+  pinMode(button3Pin, INPUT_PULLUP);
+  pinMode(button4Pin, INPUT_PULLUP);
 }
-void loop()
-{
+
+void loop() {
+  buttonState1 = digitalRead(button1Pin);
+  buttonState2 = digitalRead(button2Pin);
+  buttonState3 = digitalRead(button3Pin);
+  buttonState4 = digitalRead(button4Pin);
+
+  if (buttonState1 == LOW && !function1Running) {
+    stopAllFunctions();
+    function1Running = true;
+    animationFull();
+  }
+
+  if (buttonState2 == LOW && !function2Running) {
+    stopAllFunctions();
+    function2Running = true;
+    animationUpper();
+  }
+
+  if (buttonState3 == LOW && !function3Running) {
+    stopAllFunctions();
+    function3Running = true;
+    animationLower();
+  }
+
+  if (buttonState4 == LOW && !function4Running) {
+    stopAllFunctions();
+    function4Running = true;
+    animationLoading();
+  }
+}
+
+void animationFull() {
+  while (function1Running) {
     for (int i = 1; i < 13; i++)
     {
       light_led(i);
       delay(1);
     }
+    buttonState2 = digitalRead(button2Pin);
+    buttonState3 = digitalRead(button3Pin);
+    buttonState4 = digitalRead(button4Pin);
+
+    if (buttonState2 == LOW || buttonState3 == LOW || buttonState4 == LOW) {
+      function1Running = false;
+    }
+  }
+}
+
+void animationUpper() {
+  while (function2Running) {
+    light_led(10);
+    delay(1);
+    light_led(11);
+    delay(1);
+    light_led(12);
+    delay(1);
+    light_led(1);
+    delay(1);
+    light_led(2);
+    delay(1);
+
+    buttonState1 = digitalRead(button1Pin);
+    buttonState3 = digitalRead(button3Pin);
+    buttonState4 = digitalRead(button4Pin);
+
+    if (buttonState1 == LOW || buttonState3 == LOW || buttonState4 == LOW) {
+      function2Running = false;
+    }
+  }
+}
+
+void animationLower() {
+  while (function3Running) {
+    light_led(4);
+    delay(1);
+    light_led(5);
+    delay(1);
+    light_led(6);
+    delay(1);
+    light_led(7);
+    delay(1);
+    light_led(8);
+    delay(1);
+
+    buttonState1 = digitalRead(button1Pin);
+    buttonState2 = digitalRead(button2Pin);
+    buttonState4 = digitalRead(button4Pin);
+
+    if (buttonState1 == LOW || buttonState2 == LOW || buttonState4 == LOW) {
+      function3Running = false;
+    }
+  }
+}
+
+void animationLoading() {
+  while (function4Running) {
+    for (int i = 1; i < 13; i++)
+    {
+      light_led(i);
+      delay(50);
+    }
+
+    buttonState1 = digitalRead(button1Pin);
+    buttonState2 = digitalRead(button2Pin);
+    buttonState3 = digitalRead(button3Pin);
+
+    if (buttonState1 == LOW || buttonState2 == LOW || buttonState3 == LOW) {
+      function4Running = false;
+    }
+  }
+}
+
+void stopAllFunctions() {
+  function1Running = false;
+  function2Running = false;
+  function3Running = false;
+  function4Running = false;
 }
 
 void reset_pins()
