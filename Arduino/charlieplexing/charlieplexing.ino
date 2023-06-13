@@ -12,19 +12,11 @@ void setup()
 }
 void loop()
 {
-  
-  
     for (int i = 1; i < 13; i++)
     {
       light_led(i);
       delay(1);
-      
-
-
     }
-
-  
-
 }
 
 void reset_pins()
