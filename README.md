@@ -1,6 +1,6 @@
 # Project P.E.D.R.O.
 Pedro (Personal Emotional Display of Robust Obstruction) is an arduino based
-led mask.
+LED mask.
 ## Versions
 Due to time constrains, I won't be able to finish the original plan of making
 a Watch_Dogs 2 Wrench-style LED matrix, since I don't know anything about electronics
