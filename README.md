@@ -5,8 +5,8 @@ led mask.
 Due to time constrains, I won't be able to finish the original plan of making
 a Watch_Dogs 2 Wrench-style LED matrix, since I don't know anything about electronics
 and the event I want to attend with it is this September. <br>
-That means that the first version of this mask is gonna be much easier, with two
-LED strips arranged in circles using charlieplexing.<br>
+That means that the first version of this mask is gonna be much simpler, with two
+LED strips using charlieplexing arranged in circles.<br>
 I still want to make rev 2 with fully animated LED matrix display, but that will
 have to wait for later™️.
 ## Bill of materials for rev 1 (so far)
