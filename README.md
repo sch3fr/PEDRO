@@ -10,16 +10,19 @@ LED strips using charlieplexing arranged in circles.<br>
 I still want to make rev 2 with fully animated LED matrix display, but that will
 have to wait for later™️.
 ## Bill of materials for rev 1 (so far)
-- 24 LEDs
+- 24*LED, ⌀ 3mm
+- 4*330 Ohm resistors
+- 1*1K Ohm resistor
+- Arduino Nano
+- 4 buttons; leftover mechanical keyboard switchies are used in my case
 - some wire
-- Arduino (Would love to use Nano, but not sure if there are enough pins yet)
 - Paintball/airsoft style mask (Used a cheap Aliexpress one, I'll post link once it arrives)
-- 4 or 6 buttons, not sure yet
 - 3D printer for all the enclousures and stuff
 ## To do
-- [ ] Design circuit
-- [ ] Write software
+- [x] Design circuit
+- [x] Write software
 - [ ] Design parts for 3D printing
 - [ ] Print it
 - [ ] Wire it
 - [ ] Build it
+- [ ] Share circuit plan
