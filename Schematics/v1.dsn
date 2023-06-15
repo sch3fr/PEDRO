@@ -12,23 +12,13 @@ download the executable.-->
 			<TITLE>P.E.D.R.O.</TITLE>
 			<AUTHOR>sch3fr</AUTHOR>
 			<REVISION>1.0</REVISION>
-			<DOCNUMBER></DOCNUMBER>
+			<DOCNUMBER>yes</DOCNUMBER>
 			<ORGANISATION></ORGANISATION>
 			<SHEETS>1 of 1</SHEETS>
 			<SHOWS>1</SHOWS>
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
-		<FONT id='0'>
-			<HEIGHT>-13</HEIGHT>
-			<WIDTH>6</WIDTH>
-			<WEIGHT>400</WEIGHT>
-			<ITALIC>0</ITALIC>
-			<UNDERLINE>0</UNDERLINE>
-			<STRIKEOUT>0</STRIKEOUT>
-			<CHARSET>0</CHARSET>
-			<FACENAME>Arial</FACENAME>
-		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -40,16 +30,6 @@ download the executable.-->
 			<FACENAME>Arial</FACENAME>
 		</FONT>
 		<FONT id='3'>
-			<HEIGHT>-16</HEIGHT>
-			<WIDTH>7</WIDTH>
-			<WEIGHT>400</WEIGHT>
-			<ITALIC>0</ITALIC>
-			<UNDERLINE>0</UNDERLINE>
-			<STRIKEOUT>0</STRIKEOUT>
-			<CHARSET>0</CHARSET>
-			<FACENAME>Arial</FACENAME>
-		</FONT>
-		<FONT id='4'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -59,20 +39,35 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<STYLE id='2'>
-			<STYLE>0</STYLE>
-			<COLOR>000000</COLOR>
-			<THICKNESS>1</THICKNESS>
-		</STYLE>
+		<FONT id='4'>
+			<HEIGHT>-16</HEIGHT>
+			<WIDTH>7</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='5'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<STYLE id='4'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
-			<THICKNESS>2</THICKNESS>
+			<THICKNESS>1</THICKNESS>
 		</STYLE>
 		<STYLE id='5'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
-			<THICKNESS>1</THICKNESS>
+			<THICKNESS>2</THICKNESS>
 		</STYLE>
 		<FILL id='0'>
 			<INDEX>-1</INDEX>
@@ -100,51 +95,51 @@ download the executable.-->
 			<TinyCAD>
 				<PIN pos='56.00000,40.00000' which='0' elec='0' direction='0' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='56.00000,24.00000' which='0' elec='0' direction='1' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='52.00000,30.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='52.00000,30.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='8.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='56.00000,30.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='56.00000,30.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='4.00000,4.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='52.00000,30.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='52.00000,30.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='4.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,4.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='52.00000,34.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='52.00000,34.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='8.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='60.00000,31.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='60.00000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,2.00000' arc='0'/>
 					<POINT pos='2.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='61.00000,31.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='61.00000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='1.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='62.00000,31.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='62.00000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='62.00000,31.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='62.00000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,1.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='62.00000,29.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='62.00000,29.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,1.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='62.00000,29.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='62.00000,29.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='60.00000,29.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='60.00000,29.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,2.00000' arc='0'/>
 					<POINT pos='2.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='61.00000,29.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='61.00000,29.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='1.00000,0.00000' arc='0'/>
 				</POLYGON>
@@ -235,7 +230,7 @@ download the executable.-->
 			</FIELD>
 			<REF_POINT power='0' part='0' pos='135.00000,133.00000'/>
 			<TinyCAD>
-				<POLYGON pos='48.00000,87.00000' style='4' fill='3' polygon='1'>
+				<POLYGON pos='48.00000,87.00000' style='5' fill='3' polygon='1'>
 					<POINT pos='9.00000,0.00000' arc='0'/>
 					<POINT pos='76.00000,0.00000' arc='0'/>
 					<POINT pos='80.00000,2.00000' arc='0'/>
@@ -256,8 +251,8 @@ download the executable.-->
 					<POINT pos='9.00000,5.00000' arc='0'/>
 					<POINT pos='9.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<RECTANGLE a='55.00000,119.00000' b='65.00000,125.00000' style='2' fill='1'/>
-				<TEXT pos='79.00000,108.00000' direction='3' font='3' color='FFFFFF'>Arduino Mega</TEXT>
+				<RECTANGLE a='55.00000,119.00000' b='65.00000,125.00000' style='4' fill='1'/>
+				<TEXT pos='79.00000,108.00000' direction='3' font='4' color='FFFFFF'>Arduino Mega</TEXT>
 				<PIN pos='67.00000,81.00000' which='0' elec='4' direction='1' part='0' number='75' show='1' length='30' number_pos='0' centre_name='0'>AREF</PIN>
 				<PIN pos='69.00000,81.00000' which='0' elec='4' direction='1' part='0' number='76' show='1' length='30' number_pos='0' centre_name='0'>GND</PIN>
 				<PIN pos='95.00000,81.00000' which='0' elec='5' direction='1' part='0' number='72' show='1' length='30' number_pos='0' centre_name='0'>PWM2</PIN>
@@ -331,17 +326,17 @@ download the executable.-->
 				<PIN pos='113.00000,133.00000' which='0' elec='5' direction='0' part='0' number='20' show='1' length='30' number_pos='20' centre_name='0'>AIN13</PIN>
 				<PIN pos='115.00000,133.00000' which='0' elec='5' direction='0' part='0' number='21' show='1' length='30' number_pos='21' centre_name='0'>AIN14</PIN>
 				<PIN pos='117.00000,133.00000' which='0' elec='5' direction='0' part='0' number='22' show='1' length='30' number_pos='22' centre_name='0'>AIN15</PIN>
-				<RECTANGLE a='48.00000,92.00000' b='64.00000,102.00000' style='2' fill='2'/>
+				<RECTANGLE a='48.00000,92.00000' b='64.00000,102.00000' style='4' fill='2'/>
 				<PIN pos='70.00000,133.00000' which='0' elec='0' direction='0' part='0' number='1' show='1' length='30' number_pos='1' centre_name='0'>RESET</PIN>
 				<PIN pos='72.00000,133.00000' which='0' elec='4' direction='0' part='0' number='2' show='1' length='30' number_pos='2' centre_name='0'>3V3</PIN>
 				<PIN pos='74.00000,133.00000' which='0' elec='4' direction='0' part='0' number='3' show='1' length='30' number_pos='3' centre_name='0'>5V</PIN>
 				<PIN pos='76.00000,133.00000' which='0' elec='4' direction='0' part='0' number='4' show='1' length='30' number_pos='4' centre_name='0'>GND</PIN>
 				<PIN pos='80.00000,133.00000' which='0' elec='4' direction='0' part='0' number='6' show='1' length='30' number_pos='6' centre_name='0'>VIN</PIN>
-				<TEXT pos='80.00000,99.00000' direction='3' font='4' color='FFFFFF'>PWM</TEXT>
-				<TEXT pos='107.00000,99.00000' direction='3' font='4' color='FFFFFF'>COMM</TEXT>
-				<TEXT pos='118.00000,112.00000' direction='0' font='4' color='FFFFFF'>DIGITAL</TEXT>
-				<TEXT pos='91.00000,118.00000' direction='3' font='4' color='FFFFFF'>ANALOG IN</TEXT>
-				<TEXT pos='70.00000,118.00000' direction='3' font='4' color='FFFFFF'>POWER</TEXT>
+				<TEXT pos='80.00000,99.00000' direction='3' font='5' color='FFFFFF'>PWM</TEXT>
+				<TEXT pos='107.00000,99.00000' direction='3' font='5' color='FFFFFF'>COMM</TEXT>
+				<TEXT pos='118.00000,112.00000' direction='0' font='5' color='FFFFFF'>DIGITAL</TEXT>
+				<TEXT pos='91.00000,118.00000' direction='3' font='5' color='FFFFFF'>ANALOG IN</TEXT>
+				<TEXT pos='70.00000,118.00000' direction='3' font='5' color='FFFFFF'>POWER</TEXT>
 				<PIN pos='78.00000,133.00000' which='0' elec='4' direction='0' part='0' number='5' show='1' length='30' number_pos='5' centre_name='0'>GND</PIN>
 				<PIN pos='134.00000,121.00000' which='0' elec='5' direction='2' part='0' number='24' show='1' length='30' number_pos='24' centre_name='0'>D52       </PIN>
 				<PIN pos='134.00000,120.00000' which='0' elec='5' direction='2' part='0' number='43' show='1' length='30' number_pos='0' centre_name='0'>D51</PIN>
@@ -358,18 +353,18 @@ download the executable.-->
 			<TinyCAD>
 				<PIN pos='82.00000,43.00000' which='5' elec='4' direction='1' part='0' number='1' show='0' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='82.00000,51.00000' which='5' elec='4' direction='0' part='0' number='2' show='0' length='30' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='82.00000,43.00000' style='5' fill='0' polygon='0'>
+				<POLYGON pos='82.00000,43.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,1.60000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='82.00000,50.40000' style='5' fill='0' polygon='0'>
+				<POLYGON pos='82.00000,50.40000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,1.60000' arc='0'/>
 				</POLYGON>
-				<RECTANGLE a='80.40000,44.60000' b='83.40000,50.40000' style='5' fill='0'/>
+				<RECTANGLE a='80.40000,44.60000' b='83.40000,50.40000' style='4' fill='0'/>
 			</TinyCAD>
 		</SYMBOLDEF>
-		<SYMBOLDEF id='5'>
+		<SYMBOLDEF id='4'>
 			<NAME type='0'>BUTTON_PM_SPST</NAME>
 			<REF type='1'>SW?</REF>
 			<DESCRIPTION>Momentary panel-mount SPST switch </DESCRIPTION>
@@ -482,19 +477,19 @@ download the executable.-->
 			</FIELD>
 			<REF_POINT power='0' part='0' pos='50.00000,49.00000'/>
 			<TinyCAD>
-				<ELLIPSE a='43.00000,46.00000' b='45.00000,48.00000' style='4' fill='0'/>
-				<POLYGON pos='37.80000,45.00000' style='2' fill='0' polygon='0'>
+				<ELLIPSE a='43.00000,46.00000' b='45.00000,48.00000' style='5' fill='0'/>
+				<POLYGON pos='37.80000,45.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.08264,1.68127' arc='0'/>
 					<POINT pos='5.20000,0.00000' arc='0'/>
 				</POLYGON>
 				<PIN pos='32.00000,47.00000' which='0' elec='4' direction='3' part='0' number='1' show='1' length='15' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='49.00000,47.00000' which='0' elec='4' direction='2' part='0' number='2' show='1' length='15' number_pos='0' centre_name='0'></PIN>
-				<ELLIPSE a='36.00000,46.00000' b='38.00000,48.00000' style='4' fill='0'/>
-				<POLYGON pos='35.00000,47.00000' style='2' fill='0' polygon='0'>
+				<ELLIPSE a='36.00000,46.00000' b='38.00000,48.00000' style='5' fill='0'/>
+				<POLYGON pos='35.00000,47.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='1.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='45.00000,47.00000' style='2' fill='0' polygon='0'>
+				<POLYGON pos='45.00000,47.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='1.00000,0.00000' arc='2'/>
 				</POLYGON>
@@ -630,7 +625,7 @@ download the executable.-->
 		</SYMBOL>
 		<WIRE a='188.00000,128.00000' b='198.00000,128.00000'/>
 		<SYMBOL id='1' pos='218.00000,144.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='2.6' show='0' pos='1.00000,-11.60000'/>
+			<FIELD type='0' description='Ref' value='2.6' show='1' pos='1.00000,-11.60000'/>
 			<FIELD type='0' description='Name' value='LED' show='1' pos='1.00000,-14.00000'/>
 		</SYMBOL>
 		<WIRE a='198.00000,128.00000' b='212.00000,128.00000'/>
@@ -796,7 +791,7 @@ download the executable.-->
 		<JUNCTION pos='254.00000,144.00000'/>
 		<JUNCTION pos='266.00000,84.00000'/>
 		<JUNCTION pos='266.00000,144.00000'/>
-		<SYMBOL id='5' pos='66.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='66.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='SW?' show='0' pos='-4.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='' show='1' pos='-4.00000,-18.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='-4.00000,4.40000'/>
@@ -815,7 +810,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='-4.00000,35.60000'/>
 			<FIELD type='1' description='Cost' value='3.49' show='0' pos='-4.00000,38.00000'/>
 		</SYMBOL>
-		<SYMBOL id='5' pos='72.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='72.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='SW?' show='0' pos='-4.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='' show='1' pos='-4.00000,-18.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='-4.00000,4.40000'/>
@@ -834,7 +829,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='-4.00000,35.60000'/>
 			<FIELD type='1' description='Cost' value='3.49' show='0' pos='-4.00000,38.00000'/>
 		</SYMBOL>
-		<SYMBOL id='5' pos='78.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='78.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='SW?' show='0' pos='-4.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='' show='1' pos='-4.00000,-18.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='-4.00000,4.40000'/>
@@ -853,7 +848,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='-4.00000,35.60000'/>
 			<FIELD type='1' description='Cost' value='3.49' show='0' pos='-4.00000,38.00000'/>
 		</SYMBOL>
-		<SYMBOL id='5' pos='84.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='84.00000,138.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='SW?' show='0' pos='-4.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='' show='1' pos='-4.00000,-18.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='-4.00000,4.40000'/>
@@ -907,6 +902,6 @@ download the executable.-->
 		<WIRE a='70.00000,158.00000' b='76.00000,158.00000'/>
 		<JUNCTION pos='82.00000,137.00000'/>
 		<WIRE a='82.00000,134.00000' b='82.00000,137.00000'/>
-		<TEXT pos='254.00000,208.00000' direction='3' font='0' color='000000'>15.6.2023</TEXT>
+		<TEXT pos='254.00000,208.00000' direction='3' font='3' color='000000'>15.6.2023</TEXT>
 	</TinyCAD>
 </TinyCADSheets>

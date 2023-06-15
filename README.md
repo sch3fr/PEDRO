@@ -18,6 +18,10 @@ have to wait for later™️.
 - some wire
 - Paintball/airsoft style mask (Used a cheap Aliexpress one, I'll post link once it arrives)
 - 3D printer for all the enclousures and stuff
+## Rev 1 plans
+- Arduino Nano in enclousure with buttons mounted on a belt
+- Power from a power bank in a pocket / bag
+- 4 wires bunched together using a cable sleeve running from Arduino on the belt to LEDS in the mask
 ## To do
 - [x] Design circuit
 - [x] Write software

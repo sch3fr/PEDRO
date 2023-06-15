@@ -77,9 +77,9 @@ void animationFull() {
 }
 
 void animationUpper() {
-  while (function2Running) {
-    light_led(10);
-    delay(1);
+  while (function2Running) { // the LEDs are assembled and numbered like numbers on a clock
+    light_led(10);           // that's why there is this odd numbering for this function and
+    delay(1);                // the animationLower() funtion
     light_led(11);
     delay(1);
     light_led(12);
