@@ -25,4 +25,4 @@ have to wait for later™️.
 - [ ] Print it
 - [ ] Wire it
 - [ ] Build it
-- [ ] Share circuit plan
+- [x] Share circuit plan
