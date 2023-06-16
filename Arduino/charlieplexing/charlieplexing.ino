@@ -4,10 +4,10 @@ int LED_C = 10; //connects to LED 3
 int LED_D = 9; //connects to LED 6
 
 // Pins connected to the buttons
-int button1Pin = 7;
-int button2Pin = 6;
-int button3Pin = 5;
-int button4Pin = 4;
+int button1Pin = 5;
+int button2Pin = 4;
+int button3Pin = 3;
+int button4Pin = 2;
 
 // Variables to store the button states
 int buttonState1 = 0;
