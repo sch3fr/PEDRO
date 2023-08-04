@@ -4,10 +4,10 @@ int LED_C = 10; //connects to LED 3
 int LED_D = 9; //connects to LED 6
 
 // Pins connected to the buttons
-int button1Pin = 5;
-int button2Pin = 4;
-int button3Pin = 3;
-int button4Pin = 2;
+int button1Pin = 6;
+int button2Pin = 5;
+int button3Pin = 4;
+int button4Pin = 3;
 
 // Variables to store the button states
 int buttonState1 = 0;
@@ -21,11 +21,22 @@ bool function2Running = false;
 bool function3Running = false;
 bool function4Running = false;
 
+// Pull up pins
+int pullup1 = 8;
+int pullup2 = 7;
+int pullup3 = 2;
+int pullup4 = 1;
+
 void setup() {
   pinMode(button1Pin, INPUT_PULLUP);
   pinMode(button2Pin, INPUT_PULLUP);
   pinMode(button3Pin, INPUT_PULLUP);
   pinMode(button4Pin, INPUT_PULLUP);
+
+  pinMode(pullup1, INPUT_PULLUP);
+  pinMode(pullup2, INPUT_PULLUP);
+  pinMode(pullup3, INPUT_PULLUP);
+  pinMode(pullup4, INPUT_PULLUP);  
 }
 
 void loop() {
@@ -127,7 +138,7 @@ void animationLoading() {
     for (int i = 1; i < 13; i++)
     {
       light_led(i);
-      delay(35);
+      delay(35); //original 35
     }
 
     buttonState1 = digitalRead(button1Pin);
