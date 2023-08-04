@@ -37,7 +37,7 @@ have to wait for later™️.
 7. Flash the firmware
 8. Enjoy your mask :)
 ### Demo
-    ![Demo of mask 1](/Images/demo.gif)
+![Demo of mask 1](/Images/demo.gif)
 ## To do
 - [x] Design circuit
 - [x] Write software
