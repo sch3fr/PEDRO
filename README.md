@@ -2,24 +2,27 @@
 Pedro (Personal Emotional Display of Robust Obstruction) is an arduino based
 LED mask.
     ![Completed mask](/Images/mask1.jpg)
+## How it works
+There are two sets of charlieplexed LEDs inside the mask visor. The leds are connected to a control box (that I mounted 
+to my belt using zip ties). Inside of the control box there is Arduino Nano, controling the whole thing. On the front of
+the control box there are 4 buttons for changing the LED animatins. The mask is powered by powerbank I shoved into my 
+pocket.
 ## Versions
-Due to time constrains, I won't be able to finish the original plan of making
-a Watch_Dogs 2 Wrench-style LED matrix, since I don't know anything about electronics
-and the event I want to attend with it is this September. <br>
-That means that the first version of this mask is gonna be much simpler, with two
-LED strips using charlieplexing arranged in circles.<br>
-I still want to make rev 2 with fully animated LED matrix display, but that will
-have to wait for later™️.
+Due to time constrains, I wasnt't able to finish the original plan of making
+a Watch_Dogs 2 Wrench-style LED matrix, since I don't know much about electronics
+and the event I wanted to attend with a mask was in September. <br>
+That means that the first version of this mask is much simpler, with two charlieplexed LED circles.<br>
+I still want to make rev 2 with fully animated LED matrix display, but that will have to wait for later™️.
 ## Version 1
 ### Bill of Materials
-- 24*LEDs, ⌀ 3mm
-- 4*330 Ohm resistors
-- 1*1K Ohm resistor
-- Arduino Nano
-- 4 buttons; leftover mechanical keyboard switchies are used in my case
-- some wire
-- Paintball/airsoft style mask. [I used this one](https://www.aliexpress.com/item/1005005392812734.html?spm=a2g0o.order_list.order_list_main.63.6b571802MzwtKa)
+- 24* LEDs, ⌀ 3mm
+- 4* 330 Ohm resistors
+- 1* 1K Ohm resistor
+- 1* Arduino Nano
+- 4 buttons; leftover mechanical keyboard switchies are used in my case with 4 keycyps
+- 1* Paintball/airsoft style mask. [I used this one](https://www.aliexpress.com/item/1005005392812734.html?spm=a2g0o.order_list.order_list_main.63.6b571802MzwtKa)
     ![Mask I used](/images/mask.png)
+- 1* 3D printed eyepiece
 - 3D printer for all the enclousures and stuff
 - 2 longer or 4 shorter zip ties
 ### Plans
